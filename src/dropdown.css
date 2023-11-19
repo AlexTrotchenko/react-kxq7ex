@@ -1,0 +1,84 @@
+.dropdown-menu {
+  background-color: white; /* Material UI menus usually have a light background */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  border: none; /* Remove default border */
+  padding: 8px 0; /* Vertical padding, no horizontal padding */
+  font-size: 1rem; /* Adjust font size as needed */
+}
+
+.dropdown-item {
+  padding: 10px 16px; /* Adequate padding */
+  color: rgba(0, 0, 0, 0.87); /* Primary text color */
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #f5f5f5; /* Slight change in background on hover */
+  color: rgba(0, 0, 0, 0.87); /* Maintain text color */
+}
+
+.dropdown-item:hover {
+  background-color: #f5f5f5;
+}
+
+.dropdown-toggle {
+  background-color: #64b5f6; /* Light blue background */
+  color: white; /* White text color */
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+  background-color: #42a5f5; /* Darker shade on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24); /* Optional: Change shadow on hover */
+}
+
+.dropdown-toggle::after {
+  display: none; /* Hide the default caret icon */
+}
+.dropdown-toggle span {
+  color: white; /* Ensures initials are white */
+  font-weight: bold;
+}
+
+.dropdown-toggle img {
+  border-radius: 50%; /* Circular image */
+}
+.tooltip.bs-tooltip-top .arrow::before,
+.tooltip.bs-tooltip-auto[x-placement^='top'] .arrow::before {
+  border-top-color: #333; /* Arrow color */
+}
+
+.tooltip-inner {
+  background-color: #333; /* Dark background */
+  color: white; /* Light text color */
+  border-radius: 4px; /* Rounded corners */
+  padding: 8px 16px; /* Padding similar to Material UI */
+  font-size: 0.875rem; /* Material UI font size */
+  max-width: 200px; /* Optional: maximum width */
+}
+.dropdown-item svg {
+  margin-right: 8px; /* Add some space between icon and text */
+  fill: currentColor; /* To inherit the text color */
+}
+.dropdown-toggle.active {
+  background-color: #357a38; /* Darker shade for active state */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24); /* Enhanced shadow for active state */
+  /* Other styles as needed */
+}
+
+#custom-dropdown:active,
+#custom-dropdown.show,
+#custom-dropdown.btn.active {
+  background-color: #42a5f5; /* Darker shade on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24); /* Optional: Change shadow on hover */
+}

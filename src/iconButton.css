@@ -1,0 +1,40 @@
+.icon-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.icon-button:hover {
+  background-color: rgba(0, 0, 0, 0.04); /* Light grey background on hover */
+}
+.icon-button svg {
+  width: 25px; /* Adjusted width */
+  height: 25px; /* Adjusted height */
+}
+.icon-button-container {
+  position: relative; /* Container for relative positioning */
+}
+
+.notification-badge {
+  position: absolute; /* Absolute position relative to the icon-button-container */
+  bottom: -2px; /* Position at the bottom */
+  right: -2px; /* Position to the right */
+  width: 20px; /* Badge size */
+  height: 20px; /* Badge size */
+  border-radius: 50%; /* Make it circular */
+  background-color: red; /* Badge color */
+  color: white; /* Text color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem; /* Adjust font size as needed */
+  font-weight: bold;
+  /* Add any other styling as needed */
+}

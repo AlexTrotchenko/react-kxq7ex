@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* Adjust as per your layout */
+  align-items: center;
+  background-color: #3185da; /* Example background color */
+  padding: 10px 20px;
+  color: white;
+  position: relative; /* Needed to make z-index effective */
+  z-index: 1050;
+  /* Additional styling as required */
+}
+/* Customize the offcanvas to resemble Material UI Drawer */
+.offcanvas-end {
+  padding-top: 60px;
+  width: 250px; /* Adjust the width as needed */
+  background-color: #fff; /* Background color */
+  box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.5); /* Shadow on the left edge */
+}
+
+.offcanvas-header {
+  /* Customizations for the header (if needed) */
+}
+
+.offcanvas-body {
+  /* Customizations for the body (if needed) */
+}
+
+/* Transition effect */
+.offcanvas.show {
+  transition: transform 0.3s ease-in-out;
+}
